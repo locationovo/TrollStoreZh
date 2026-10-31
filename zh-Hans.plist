@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Unable to locate app bundle inside the .IPA archive.</key>
+    <string>无法在 .IPA 压缩包中找到 App 包。</string>
+    <key>Unable to locate Info.plist inside app bundle.</key>
+    <string>无法在 App 包中找到 Info.plist。</string>
+    <key>Unable to locate main binary inside app bundle.</key>
+    <string>无法在 App 包中找到主二进制文件。</string>
+    <key>The IPA file does not exist or is not accessible.</key>
+    <string>IPA 文件不存在或无法访问。</string>
+    <key>The IPA file does not appear to contain an app.</key>
+    <string>IPA 文件中似乎不包含 App。</string>
+    <key>Failed to extract IPA file.</key>
+    <string>解压 IPA 文件失败。</string>
+    <key>Failed to extract update tar file.</key>
+    <string>解压更新 tar 文件失败。</string>
+    <key>Failed to create container for app bundle.</key>
+    <string>为 App 包创建容器失败。</string>
+    <key>The app does not contain an Info.plist file.</key>
+    <string>该 App 不包含 Info.plist 文件。</string>
+    <key>Failed to sign the app. ldid returned a non zero status code.</key>
+    <string>签名 App 失败。ldid 返回了非零状态码。</string>
+    <key>Failed to mark app as TrollStore app.</key>
+    <string>将 App 标记为 TrollStore App 失败。</string>
+    <key>Failed to copy app bundle.</key>
+    <string>复制 App 包失败。</string>
+    <key>Failed to add app to icon cache.</key>
+    <string>将 App 添加到图标缓存失败。</string>
+    <key>Failed to enable developer mode.</key>
+    <string>启用开发者模式失败。</string>
+    
+    <key>Sandboxing</key>
+    <string>沙盒</string>
+    <key>The app runs unsandboxed and can access most of the file system.</key>
+    <string>App 以无沙盒模式运行，可访问大部分文件系统。</string>
+    <key>The app runs sandboxed and can only access the containers listed below.</key>
+    <string>App 以沙盒模式运行，只能访问下方列出的容器。</string>
+    <key>Capabilities</key>
+    <string>能力</string>
+    <key>Privacy</key>
+    <string>隐私</string>
+    <key>Device Info</key>
+    <string>设备信息</string>
+    <key>Accessible Containers</key>
+    <string>可访问的容器</string>
+    <key>Accessible Keychain Groups</key>
+    <string>可访问的钥匙串组</string>
+    
+    <key>Install IPA File</key>
+    <string>安装 IPA 文件</string>
+    <key>Install from URL</key>
+    <string>从 URL 安装</string>
+    <key>Install</key>
+    <string>安装</string>
+    <key>Cancel</key>
+    <string>取消</string>
+    <key>Close</key>
+    <string>关闭</string>
+    <key>Open</key>
+    <string>打开</string>
+    <key>Open with JIT</key>
+    <string>使用 JIT 打开</string>
+    <key>Show Details</key>
+    <string>显示详情</string>
+    <key>Uninstall App</key>
+    <string>卸载 App</string>
+    <key>Uninstall</key>
+    <string>卸载</string>
+    <key>Confirm Uninstallation</key>
+    <string>确认卸载</string>
+    <key>Respring</key>
+    <string>注销</string>
+    <key>Force Installation</key>
+    <string>强制安装</string>
+    <key>Reboot Now</key>
+    <string>立即重启</string>
+    <key>Copy Debug Log</key>
+    <string>复制调试日志</string>
+    <key>Switch to "User"</key>
+    <string>切换到“用户”</string>
+    <key>Transfer</key>
+    <string>迁移</string>
+    <key>Rebuild Now</key>
+    <string>立即重建</string>
+    <key>Rebuild Later</key>
+    <string>稍后重建</string>
+    <key>Continue</key>
+    <string>继续</string>
+    
+    <key>Installing</key>
+    <string>正在安装</string>
+    <key>Downloading</key>
+    <string>正在下载</string>
+    <key>Installing ldid</key>
+    <string>正在安装 ldid</string>
+    <key>Updated TrollStore!</key>
+    <string>TrollStore 已更新！</string>
+    <key>Transfering</key>
+    <string>正在迁移</string>
+    <key>Refreshing</key>
+    <string>正在刷新</string>
+    
+    <key>Installation Method</key>
+    <string>安装方式</string>
+    <key>Uninstallation Method</key>
+    <string>卸载方式</string>
+    <key>Advanced</key>
+    <string>高级</string>
+    <key>Update Available</key>
+    <string>有可用更新</string>
+    <key>Developer Mode</key>
+    <string>开发者模式</string>
+    <key>Enable Developer Mode</key>
+    <string>启用开发者模式</string>
+    <key>Utilities</key>
+    <string>工具</string>
+    <key>Refresh App Registrations</key>
+    <string>刷新 App 注册</string>
+    <key>Rebuild Icon Cache</key>
+    <string>重建图标缓存</string>
+    <key>Signing</key>
+    <string>签名</string>
+    <key>Install ldid</key>
+    <string>安装 ldid</string>
+    <key>Persistence</key>
+    <string>持久化</string>
+    <key>Uninstall Persistence Helper</key>
+    <string>卸载持久化助手</string>
+    <key>Install Persistence Helper</key>
+    <string>安装持久化助手</string>
+    <key>Security</key>
+    <string>安全</string>
+    <key>URL Scheme Enabled</key>
+    <string>启用 URL Scheme</string>
+    <key>Uninstall TrollStore</key>
+    <string>卸载 TrollStore</string>
+    
+    <key>System</key>
+    <string>系统</string>
+    <key>User</key>
+    <string>用户</string>
+    <key>Custom</key>
+    <string>自定义</string>
+    <key>Always (Recommended)</key>
+    <string>总是（推荐）</string>
+    <key>Error</key>
+    <string>错误</string>
+    <key>Warning</key>
+    <string>警告</string>
+</dict>
+</plist>

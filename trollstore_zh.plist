@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Apps</key><string>应用</string>
+    <key>Settings</key><string>设置</string>
+    <key>Metadata</key><string>元数据</string>
+    <key>Info</key><string>信息</string>
+    <key>SIGNING</key><string>签名</string>
+    <key>PERSISTENCE</key><string>持久化</string>
+    <key>SECURITY</key><string>安全</string>
+    <key>UTILITIES</key><string>工具</string>
+    <key>ADVANCED</key><string>高级</string>
+    
+    <key>Sandboxing</key><string>沙盒</string>
+    <key>Capabilities</key><string>能力</string>
+    <key>Privacy</key><string>隐私</string>
+    <key>Device Info</key><string>设备信息</string>
+    <key>Accessible Containers</key><string>可访问的容器</string>
+    <key>Accessible Keychain Groups</key><string>可访问的钥匙串组</string>
+    <key>entitlements:</key><string>权限：</string>
+    <key>info dictionaries:</key><string>信息字典：</string>
+    
+    <key>Install IPA File</key><string>安装 IPA 文件</string>
+    <key>Install from URL</key><string>从 URL 安装</string>
+    <key>Install</key><string>安装</string>
+    <key>Cancel</key><string>取消</string>
+    <key>Close</key><string>关闭</string>
+    <key>Open</key><string>打开</string>
+    <key>Open with JIT</key><string>使用 JIT 打开</string>
+    <key>Show Details</key><string>显示详情</string>
+    <key>Uninstall App</key><string>卸载 App</string>
+    <key>Uninstall</key><string>卸载</string>
+    <key>Confirm Uninstallation</key><string>确认卸载</string>
+    <key>Respring</key><string>注销</string>
+    <key>Force Installation</key><string>强制安装</string>
+    <key>Reboot Now</key><string>立即重启</string>
+    <key>Copy Debug Log</key><string>复制调试日志</string>
+    <key>Continue</key><string>继续</string>
+    
+    <key>Installing</key><string>正在安装</string>
+    <key>Downloading</key><string>正在下载</string>
+    <key>Installing ldid</key><string>正在安装 ldid</string>
+    <key>Updated TrollStore!</key><string>TrollStore 已更新！</string>
+    
+    <key>Installation Method</key><string>安装方式</string>
+    <key>Uninstallation Method</key><string>卸载方式</string>
+    <key>Advanced</key><string>高级</string>
+    <key>Update Available</key><string>有可用更新</string>
+    <key>Developer Mode</key><string>开发者模式</string>
+    <key>Enable Developer Mode</key><string>启用开发者模式</string>
+    <key>Utilities</key><string>工具</string>
+    <key>Refresh App Registrations</key><string>刷新 App 注册</string>
+    <key>Rebuild Icon Cache</key><string>重建图标缓存</string>
+    <key>Signing</key><string>签名</string>
+    <key>Install ldid</key><string>安装 ldid</string>
+    <key>Persistence</key><string>持久化</string>
+    <key>Uninstall Persistence Helper</key><string>卸载持久化助手</string>
+    <key>Install Persistence Helper</key><string>安装持久化助手</string>
+    <key>Security</key><string>安全</string>
+    <key>URL Scheme Enabled</key><string>启用 URL Scheme</string>
+    <key>Show Install Confirmation Alert</key><string>显示安装确认弹窗</string>
+    <key>Uninstall TrollStore</key><string>卸载 TrollStore</string>
+    <key>Error</key><string>错误</string>
+    <key>Warning</key><string>警告</string>
+    
+    <key>System</key><string>系统</string>
+    <key>User</key><string>用户</string>
+    <key>Custom</key><string>自定义</string>
+    <key>Custom (Recommended)</key><string>自定义（推荐）</string>
+    <key>installd</key><string>installd</string>
+    <key>Always (Recommended)</key><string>总是（推荐）</string>
+    <key>Only on Remote URL Installs</key><string>仅限远程 URL 安装</string>
+    <key>Never (Not Recommeded)</key><string>从不（不推荐）</string>
+
+    <key>Donate</key><string>捐赠</string>
+    <key>Donate to alfiecg_dev</key><string>捐赠给 alfiecg_dev</string>
+    <key>Donate to opa334</key><string>捐赠给 opa334</string>
+    
+    <key>TrollStore is NOT for piracy!</key><string>TrollStore 不用于盗版！</string>
+    <key>Credits:</key><string>致谢：</string>
+    <key>Google TAG, @alfiecg_dev: CoreTrust bug</key><string>Google TAG, @alfiecg_dev: CoreTrust 漏洞</string>
+    <key>@lunotech11, @SerenaKit, @tylinux, @TheRealClarity, @dhinakg, @khanhduytran0: Various contributions</key><string>@lunotech11, @SerenaKit, @tylinux, @TheRealClarity, @dhinakg, @khanhduytran0: 各种贡献</string>
+    <key>@ProcursusTeam: uicache, ldid</key><string>@ProcursusTeam: uicache, ldid</string>
+    <key>@cstar_ow: uicache</key><string>@cstar_ow: uicache</string>
+    <key>@saurik: ldid</key><string>@saurik: ldid</string>
+    
+    <key>Some apps require developer mode enabled to launch. This requires a reboot to take effect.</key>
+    <string>某些 App 需要开启开发者模式才能启动。这需要重启才能生效。</string>
+    <key>If an app does not immediately appear after installation, respring here and it should appear afterwards.</key>
+    <string>如果安装后 App 没有立即出现，请在此处注销，之后它应该就会出现。</string>
+    
+    <key>The URL Scheme, when enabled, will allow apps and websites to trigger TrollStore installations through the apple-magnifier://install?url=&lt;IPA_URL&gt; URL scheme and enable JIT through the apple-magnifier://enable-jit?bundle-id=&lt;BUNDLE_ID&gt; URL scheme.</key>
+    <string>启用后，URL Scheme 将允许 App 和网站通过 apple-magnifier://install?url=&lt;IPA_URL&gt; 触发 TrollStore 安装，并通过 apple-magnifier://enable-jit?bundle-id=&lt;BUNDLE_ID&gt; 启用 JIT。</string>
+
+    <key>ldid is installed and allows TrollStore to install unsigned IPA files.</key>
+    <string>ldid 已安装，允许 TrollStore 安装未签名的 IPA 文件。</string>
+    <key>In order for TrollStore to be able to install unsigned IPAs, ldid has to be installed using this button. It can't be directly included in TrollStore because of licensing issues.</key>
+    <string>为了让 TrollStore 能够安装未签名的 IPA，必须使用此按钮安装 ldid。由于许可问题，它无法直接包含在 TrollStore 中。</string>
+    <key>Select a system app to install the TrollStore Persistence Helper into. The normal function of the app will not be available, so it is recommended to pick something useless like the Tips app.</key>
+    <string>选择要将 TrollStore 持久化助手安装到的系统 App。该 App 的正常功能将不可用，因此建议选择一些无用的 App，例如“提示”。</string>
+    <key>Uninstalling the persistence helper will revert this app back to it's original state, you will however no longer be able to persistently refresh the TrollStore app registrations. Continue?</key>
+    <string>卸载持久化助手会将此 App 恢复为原始状态，但您将无法再持久刷新 TrollStore App 注册。继续吗？</string>
+    <key>You are about to uninstall TrollStore, do you want to preserve the apps installed by it?</key>
+    <string>您即将卸载 TrollStore，是否要保留由它安装的 App？</string>
+
+    <key>Opa developed the ChOma library, helped with automating the bug using it and integrated it into TrollStore.</key>
+    <string>Opa 开发了 ChOma 库，帮助实现了该 Bug 的自动化，并将其集成到了 TrollStore 中。</string>
+    <key>Alfie found the new CoreTrust bug (CVE-2023-41991) via patchdiffing, produced a POC binary and worked on automatically applying it with the help of the ChOma library, while also contributing to said library.</key>
+    <string>Alfie 通过补丁对比发现了新的 CoreTrust Bug (CVE-2023-41991)，制作了 POC 二进制文件，并在 ChOma 库的帮助下实现了自动化应用，同时也对该库做出了贡献。</string>
+</dict>
+</plist>

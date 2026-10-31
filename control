@@ -1,0 +1,9 @@
+Package: com.locationovo.trollstorezh
+Name: TrollStore汉化
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Description: TrollStore 的简体中文汉化包
+Maintainer: locationovo <locationovo@outlook.com>
+Author: locationovo <locationovo@outlook.com>
+Section: Tweaks
+Depends: firmware (>= 14.0)

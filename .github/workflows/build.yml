@@ -1,0 +1,43 @@
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install dpkg
+        run: brew install dpkg
+        
+      - name: Get Version
+        run: echo "TAG_NAME=v$(cat VERSION | tr -d '[:space:]')" >> $GITHUB_ENV
+        
+      - name: Build
+        run: |
+          make clean
+          make deb
+          make deb ROOTHIDE=1
+          cp TrollStoreZh_arm64.dylib TrollStoreZh.dylib
+          cp trollstore_zh.plist zh-Hans.plist
+          rm -rf layout
+          
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.TAG_NAME }}
+          name: Release ${{ env.TAG_NAME }}
+          files: |
+            TrollStoreZh_iphoneos-arm64.deb
+            TrollStoreZh_iphoneos-arm64e.deb
+            TrollStoreZh.dylib
+            zh-Hans.plist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

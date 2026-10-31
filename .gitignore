@@ -1,0 +1,7 @@
+*.o
+*.d
+*.dylib
+layout/
+*.deb
+lang_data.h
+.DS_Store
